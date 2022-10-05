@@ -95,17 +95,17 @@ body.dark{
 }
 
 .colors__item--red{
-    --primary-color: hsl(0, 84%, 37%);
+    --primary-color: hsl(0, 100%, 45%);
     
 }
 
-.colors__item--purple{
-    --primary-color: hsl(294, 84%, 56%);
+.colors__item--green{
+    --primary-color: hsl(141, 87%, 40%);
     
 }
 
 .colors__item--orange{
-    --primary-color: hsl(18, 84%, 56%);
+    --primary-color: hsl(18, 87%, 50%);
     
 }
 
@@ -161,7 +161,8 @@ body.dark{
 }
 
 .card__title{
-    margin: 0;
+    
+    margin-bottom: 1em;
     font-size: 1.2rem;
 }
 
@@ -258,9 +259,51 @@ animation: skills-bar-fill 2s ease-in-out forwards ;
     --skill-bar-length: 90%;
 }
 
+
+.experience{
+    display: flex;
+    align-items: start;
+    margin-bottom: 1em;
+    padding: 1em;
+    border: 2px solid var(--primary-color);
+    border-radius: var(--border-radius);
+    transition: var(--transition);
+
+}
+
+.experience__image{
+    max-width: 15%;
+    margin-right: 1em;
+}
+
 .icon{
     margin-right: 1em;
 }
+
+.experience__time{
+    font-size: 0.8rem;
+    margin-bottom: 0.5;
+   
+}
+.experience__job{
+    margin: 0;
+    margin-bottom: 0.5em;
+    color: var(--primary-color);
+    transition: var(--transition);
+}
+
+.experience__description{
+    font-size: 0.8rem;
+    margin-bottom: 1.5em;
+
+}
+
+
+.no-margin{
+    margin:0;
+
+}
+
 
 @keyframes skills-bar-fill {
     to{
