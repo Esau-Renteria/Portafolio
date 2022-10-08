@@ -20,7 +20,14 @@
           <p id="toggle-text" class="toggle-theme___text">Dark Mode</p>
         </div>
       </div>
-
+      <div id="flags" class="flags">
+        <div class="flag__item" data-language="es">
+          <img src="assets/icons/mx.svg" alt="">
+        </div>
+        <div class="flag__item" data-language="en">
+          <img src="assets/icons/us.svg" alt="">
+        </div>
+      </div>
       <div id="toggle-colors" class="colors">
 
         <div data-color="hsl(214, 84%, 56%)" class="colors__item colors__item--blue"></div>
@@ -42,7 +49,7 @@
           </div>
           <div class=""card__header">
           <h2 class="card__title">Esau Renteria</h2>
-          <p class="card__subtitle">Ing en Sistemas Computacionales</p>
+          <p class="card__subtitle" data-section="profile" data-value="rol">Ing en Sistemas Computacionales</p>
           </div>
           <div class="card__body">
             <div class="card__link">
@@ -55,7 +62,7 @@
               <a href="tel:1234567890">
                 1234567890 </a>
             </div>
-            <p class="card__text">
+            <p class="card__text" data-section="profile" data-value="description">
               Soy un Ing en Sistemas Computacionales a la espera del título, a pesar de que aun no he 
               tenido experiencia formal, he terminado mi residencia profesional de manera 
               satisfactoria.<br>
@@ -69,16 +76,16 @@
 
         <!--EXPERIENCE CARD-->
         <article class="card card--experience">
-          <h2 class="card__title">Experiences</h2>
+          <h2 class="card__title">Experiencia</h2>
           <div class="experience">
             <img src="assets/images/logo.png" alt="logo" class="experience__image">
             <div class="experience__info">
-              <p class="experience__time">
-                Feb 2017 - Current
+              <p class="experience__time" data-section="experience" data-value="first-job-dates">
+                Agosto 2021 - Octubre 2021
               </p>
-              <h3 class="experience__job">Front End Developer</h3>
-              <p class="experience__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam tenetur aspernatur magni id 
-                quasi dolore eos, atque illo molestiast.
+              <h3 class="experience__job" data-section="experience" data-value="first-job-title">Certificacion: Microsoft Azure Fundamentals AZ-900</h3>
+              <p class="experience__description" data-section="experience" data-value="first-job-description">La Certificación AZ-900 es una oportunidad para demostrar el conocimiento de los conceptos de la nube, los servicios de Azure, las cargas de trabajo de Azure, la seguridad y la privacidad en Azure, como también los precios y el soporte de Azure. Los candidatos deben estar familiarizados con los conceptos generales de tecnología, incluidos los 
+                conceptos de redes, almacenamiento, informática, soporte de aplicaciones y desarrollo de aplicaciones.
               </p>
             </div>
           </div>
@@ -86,12 +93,15 @@
           <div class="experience">
             <img src="assets/images/logo.png" alt="logo" class="experience__image">
             <div class="experience__info">
-              <p class="experience__time">
-                Feb 2017 - Current
+              <p class="experience__time" data-section="experience" data-value="second-job-dates">
+                Enero 2022 - Julio 2022
               </p>
-              <h3 class="experience__job">Front End Developer</h3>
-              <p class="experience__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam tenetur aspernatur magni id 
-                quasi dolore eos, atque illo molestiast.
+              <h3 class="experience__job" data-section="experience" data-value="second-job-title" >Residencia Profesional: Sistema de registro y control de beneficiarios y apoyos otorgados 
+                por la Presidencia Municipal de Nuevo Ideal, Dgo.</h3>
+              <p class="experience__description" data-section="experience" data-value="second-job-description">
+                Desarrollo de una aplicación web mediante la cual llevar un 
+                registro de los beneficiarios y apoyos otorgados, con el fin de 
+                llevar un control de los mismos
               </p>
             </div>
           </div>
@@ -99,11 +109,12 @@
           <div class="experience">
             <img src="assets/images/logo.png" alt="logo" class="experience__image">
             <div class="experience__info">
-              <p class="experience__time">
-                Feb 2017 - Current
+              <p class="experience__time" data-section="experience" data-value="last-job-dates">
+                Junio 2022 - Junio 2022
               </p>
-              <h3 class="experience__job">Front End Developer</h3>
-              <p class="experience__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam tenetur aspernatur magni id 
+              <h3 class="experience__job">Hackathon: ZENCON Mexico Edition - Blockchain Hackathon Award</h3>
+              <p class="experience__description" data-value="last-job-title" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam tenetur aspernatur magni id 
+              <p class="experience__description" data-section="experience" data-value="last-job-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam tenetur aspernatur magni id 
                 quasi dolore eos, atque illo molestiast.
               </p>
             </div>

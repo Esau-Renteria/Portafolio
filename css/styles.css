@@ -62,6 +62,7 @@ body.dark{
     cursor: pointer;
 }
 
+
 .toggle-theme__icon{
     margin-right: 0.5em;
     width: 20px;
@@ -69,6 +70,22 @@ body.dark{
 
 .toggle-theme__text{
     font-size: 0.8rem;
+}
+
+.flags{
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flag__item{
+    width: 30px;
+}
+
+.flags__img{
+display: block;
+cursor: pointer;
 }
 
 .colors{
