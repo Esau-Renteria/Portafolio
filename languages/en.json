@@ -4,6 +4,7 @@
         "description": "I am a Computer Systems Engineer waiting for my degree, although I have not yet had formal experience, I have successfully completed my professional residency.<br> I am a person who likes challenges and stay productive so that during <br>my stay at the institute I participated in extracurricular activities, such as courses, contests, certifications, clubs and hackathons."
     },
     "experience": {
+        "card-title": "Experience",
         "first-job-title": "Certification: Microsoft Azure Fundamentals AZ-900",
         "first-job-dates": "August 2021 - October 2021",
         "first-job-description": "AZ-900 Certification is an opportunity to demonstrate knowledge of cloud concepts, Azure services, Azure workloads, security and privacy in Azure, as well as Azure pricing and support. Candidates should be familiar with general technology concepts, including networking, storage, computing, application support, and application development.",
@@ -13,7 +14,19 @@
         "last-job-title": "Hackathon: ZENCON Mexico Edition - Blockchain Hackathon Award",
         "last-job-dates": "June 2022 - June 2022",
         "last-job-description": "Lorem ipsum pain sit amet consectetur adipisicing elit. Veniam tenetur aspernatur magni id quasi dolore eos, atque illo molestast."
+    },
+    "hobbies":{
+        "card-title": "Hobbies",
+        "hobbie-title": "Biking",
+        "hobbie-description": "hobbies"
+
+    },
+
+    "tools":{
+        "tools-title": "Tools"
+
     }
+
 
    
 }

@@ -4,6 +4,7 @@
         "description": "Soy un Ing en Sistemas Computacionales a la espera del título, a pesar de que aun no he tenido experiencia formal, he terminado mi residencia profesional de manera satisfactoria.<br> Soy una persona a la que le gustan los retos y mantenerse productiva así que durante <br>mi estancia en el instituto participe en actividades extracurriculares, tales como, cursos, concursos, certificaciones, clubs y hackáthones."
     },
     "experience": {
+        "card-title": "Experiencia",
         "first-job-title": "Certificacion: Microsoft Azure Fundamentals AZ-900",
         "first-job-dates": "Agosto 2021 - Octubre 2021",
         "first-job-description": "La Certificación AZ-900 es una oportunidad para demostrar el conocimiento de los conceptos de la nube, los servicios de Azure, las cargas de trabajo de Azure, la seguridad y la privacidad en Azure, como también los precios y el soporte de Azure. Los candidatos deben estar familiarizados con los conceptos generales de tecnología, incluidos los conceptos de redes, almacenamiento, informática, soporte de aplicaciones y desarrollo de aplicaciones.",
@@ -13,6 +14,17 @@
         "last-job-title": "Hackathon: ZENCON Mexico Edition - Blockchain Hackathon Award",
         "last-job-dates": "Junio 2022 - Junio 2022",
         "last-job-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam tenetur aspernatur magni id quasi dolore eos, atque illo molestiast."
+    },
+    "hobbies":{
+        "card-title": "Pasatiempos",
+        "hobbie-title": "Bicicleta",
+        "hobbie-description": "Pasatiempos"
+
+    },
+
+    "tools":{
+        "tools-title": "Herramientas"
+
     }
 
    
